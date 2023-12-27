@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input class="input" type="text" placeholder="Enter City Name" spellcheck="false">
+      <button class="btn">Search</button>
+    </div>
+    <a href="temperature/index.html" class="switch">
+      <i class="fa-regular fa-moon"></i>
+    </a>
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+    <div class="weather">
+      <img src="img/forecast.png" class="weather-icon" alt="...">
+      <h1><span class="temp">25</span>°C</h1>
+      <h2 class="city">Dhaka</h2>
+      <div class="details">
+        <div class="col">
+          <img src="img/humidity.png" alt="...">
+          <div>
+            <p class="humidity-cont"><span class="humidity">50</span>%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="img/wind.png" alt="...">
+          <div>
+            <p class="wind-cont"><span class="wind">15</span> km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
