@@ -19,12 +19,12 @@ body {
 }
 
 .card {
-    width: 90%;
-    max-width: 500px;
+    width: 500px;
     position: relative;
     color: #FFF;
     background: linear-gradient(135deg, #F27E88, #F2BE5C);
     text-align: center;
+    margin: 1.5em 1em;
     padding: 2.5em 2em;
     border-radius: 1em;
 }
@@ -127,8 +127,7 @@ body {
 
 @media (max-width: 568px) {
     .card {
-        width: 100%;
-        max-width: 300px;
+        width: 300px;
     }
 
     .search {
